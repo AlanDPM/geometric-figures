@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Geometric Figures</title>
+</head>
+<body>
+    <h1>Geometric Figures</h1>
+    <div>
+        <section>
+            <h2>Calculate the area and perimeter of a square</h2>
+            <form>
+                <div>
+                    <label for="squareInput">
+                        How long is each side?
+                    </label>
+                </div>
+                    <input type="number" id="squareInput">
+                    <p id="squareP"></p>
+                    <p id="squareArea"></p>
+                    <div>
+                    <button type="button" onclick="squarePCalculate()">Calcutale perimeter</button>
+                    <button type="button" onclick="squareACalculate()">Calculate area</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
